@@ -4,7 +4,7 @@ import { DESCRIPTION, TITLE } from "@/app/constants";
 
 const HeroSection = () => {
   return (
-    <div className="flex w-screen justify-center items-start py-36 gap-20 h-5/6">
+    <div className="flex w-screen justify-center items-center py-36 gap-28 h-5/6">
       <div
         className="flex flex-col justify-center gap-10"
         style={{ maxWidth: "500px" }}
@@ -22,9 +22,9 @@ const HeroSection = () => {
       </div>
 
       <Image
-        src="/images/hero-image.png"
+        src="/images/hero-section-image-2.png"
         alt="hero-image"
-        width={500}
+        width={550}
         height={400}
         style={{ objectFit: "contain" }}
       />
