@@ -1,21 +1,18 @@
 import Image from "next/image";
 
+import { DESCRIPTION, TITLE } from "@/app/constants";
+
 const HeroSection = () => {
   return (
-    <div className="flex w-screen justify-center px-24 py-24 align-middle gap-20">
+    <div className="flex w-screen justify-center items-start py-36 gap-20 h-5/6">
       <div
         className="flex flex-col justify-center gap-10"
         style={{ maxWidth: "500px" }}
       >
         <div className="flex flex-col gap-9">
-          <h1 className="text-black text-5xl font-inter font-bold">
-            Be an Expert and The King of Knowledge
-          </h1>
+          <h1 className="text-black text-5xl font-inter font-bold">{TITLE}</h1>
           <p className="text-black text-base font-inter font-normal leading-6 tracking-tight">
-            Pelatihan eksklusif untuk dorong prestasi siswa di ajang Kompetisi
-            Akademik Nasional hingga Internasional. Jadilah berprestasi dengan
-            persiapan intensif didampingi mentor berpengalaman, pembelajaran
-            komprehensif, dan materi terkini.
+            {DESCRIPTION}
           </p>
         </div>
 
@@ -28,7 +25,8 @@ const HeroSection = () => {
         src="/images/hero-image.png"
         alt="hero-image"
         width={500}
-        height={500}
+        height={400}
+        style={{ objectFit: "contain" }}
       />
     </div>
   );
