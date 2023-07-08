@@ -4,7 +4,7 @@ import { DESCRIPTION } from "@/app/constants";
 
 const HeroSection = () => {
   return (
-    <div className="flex w-screen justify-center items-center py-36 gap-28 h-5/6">
+    <div className="flex w-screen justify-center items-center gap-28 h-5/6 py-32">
       <div
         className="flex flex-col justify-center gap-10"
         style={{ maxWidth: "550px" }}

@@ -5,7 +5,7 @@ const DummyIcon = () => {
     <>
       <Image
         src="/images/partner-1.png"
-        width={35}
+        width={100}
         height={35}
         alt="partner"
         style={{ objectFit: "contain" }}
