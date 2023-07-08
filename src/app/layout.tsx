@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${beVietnamPro.className}`}>{children}</body>
+      <body className={`${beVietnamPro.className} bg-mainBackground`}>
+        {children}
+      </body>
     </html>
   );
 }

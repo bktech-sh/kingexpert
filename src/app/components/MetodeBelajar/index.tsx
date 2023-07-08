@@ -1,6 +1,15 @@
 import Image from "next/image";
+import MethodItem from "./MethodItem";
 
 const MetodeBelajar = () => {
+  const methodList = [
+    "Pre-Test",
+    "Pembinaan Intensif",
+    "Materi & Paket Soal",
+    "Simulasi",
+    "E-rapor & E-Sertifikat",
+  ];
+
   return (
     <div className="flex flex-col px-40 gap-16">
       <h2 className="font-bold text-4xl font-serif">
@@ -15,12 +24,10 @@ const MetodeBelajar = () => {
           height={200}
           style={{ objectFit: "contain" }}
         />
-        <div>
-          <p>Pre-Test</p>
-          <p>Pembinaan Intensif</p>
-          <p>Materi & Paket Soal</p>
-          <p>Simulasi</p>
-          <p>E-Rapor & E-Sertifikat</p>
+        <div className="flex flex-col flex-1 gap-5">
+          {methodList.map((method, idx) => (
+            <MethodItem title={method} key={idx} />
+          ))}
         </div>
       </div>
     </div>
