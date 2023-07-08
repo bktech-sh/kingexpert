@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Customers from "./components/Customers";
 import WhyKingExpert from "./components/WhyKingExpert";
+import MetodeBelajar from "./components/MetodeBelajar";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <Customers />
       <WhyKingExpert />
+      <MetodeBelajar />
     </main>
   );
 }
