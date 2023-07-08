@@ -1,16 +1,19 @@
 import Image from "next/image";
 
-import { DESCRIPTION, TITLE } from "@/app/constants";
+import { DESCRIPTION } from "@/app/constants";
 
 const HeroSection = () => {
   return (
     <div className="flex w-screen justify-center items-center py-36 gap-28 h-5/6">
       <div
         className="flex flex-col justify-center gap-10"
-        style={{ maxWidth: "500px" }}
+        style={{ maxWidth: "550px" }}
       >
         <div className="flex flex-col gap-9">
-          <h1 className="text-black text-5xl font-inter font-bold">{TITLE}</h1>
+          <h1 className="text-black text-5xl font-inter font-bold font-serif">
+            Be an <span className="text-mainOrange">Expert</span> and The{" "}
+            <span className="text-mainOrange">King</span> of Knowledge
+          </h1>
           <p className="text-black text-base font-inter font-normal leading-6 tracking-tight">
             {DESCRIPTION}
           </p>
