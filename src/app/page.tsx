@@ -10,6 +10,7 @@ import useIsAndroid from "./helpers/useIsAndroid";
 import MobileNavbar from "./components/MobileNavbar";
 import MobileHeroSection from "./components/MobileHeroSection";
 import MobileCustomers from "./components/MobileCustomers";
+import MobileWhyKingExpert from "./components/MobileWhyKingExpert";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -21,6 +22,7 @@ export default function Home() {
           <MobileNavbar />
           <MobileHeroSection />
           <MobileCustomers />
+          <MobileWhyKingExpert />
         </>
       ) : (
         <>
