@@ -20,6 +20,7 @@ import Gallery from "./components/Gallery";
 import MobileMetodeBelajar from "./components/MobileMetodeBelajar";
 import MobileCardHubungi from "./components/MobileCardHubungi";
 import MobileGudangMateri from "./components/MobileGudangMateri";
+import MobileKataMereka from "./components/MobileKataMereka";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -35,6 +36,7 @@ export default function Home() {
           <MobileMetodeBelajar />
           <MobileCardHubungi />
           <MobileGudangMateri />
+          <MobileKataMereka />
           <MobileFooter />
         </>
       ) : (
