@@ -10,7 +10,7 @@ const Gallery = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
   };
 

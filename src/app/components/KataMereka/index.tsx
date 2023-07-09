@@ -9,11 +9,10 @@ const KataMereka = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
   };
 
   return (
-    <div className="flex flex-col gap-8 px-28 py-28">
+    <div className="flex flex-col gap-8 px-28 py-12">
       <h2 className="text-3xl font-semibold font-serif">
         Kata <span className="text-mainOrange">Mereka</span>
       </h2>

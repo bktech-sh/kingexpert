@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CardHubungi = () => {
   return (
-    <div className="flex py-20 px-60">
+    <div className="flex py-3 px-60">
       <div
         className="flex bg-slate-500 w-full py-10 px-10 items-center justify-center gap-20"
         style={{
