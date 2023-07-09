@@ -14,6 +14,7 @@ import MobileWhyKingExpert from "./components/MobileWhyKingExpert";
 import MobileFooter from "./components/MobileFooter";
 import Tutor from "./components/Tutor";
 import CardHubungi from "./components/CardHubungi";
+import GudangMateri from "./components/GudangMateri";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -37,6 +38,7 @@ export default function Home() {
           <MetodeBelajar />
           <Tutor />
           <CardHubungi />
+          <GudangMateri />
           <Footer />
         </>
       )}
