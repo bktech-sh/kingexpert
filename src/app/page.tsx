@@ -13,6 +13,7 @@ import MobileCustomers from "./components/MobileCustomers";
 import MobileWhyKingExpert from "./components/MobileWhyKingExpert";
 import MobileFooter from "./components/MobileFooter";
 import Tutor from "./components/Tutor";
+import CardHubungi from "./components/CardHubungi";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -35,6 +36,7 @@ export default function Home() {
           <WhyKingExpert />
           <MetodeBelajar />
           <Tutor />
+          <CardHubungi />
           <Footer />
         </>
       )}
