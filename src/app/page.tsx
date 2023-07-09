@@ -7,20 +7,19 @@ import WhyKingExpert from "./components/WhyKingExpert";
 import MetodeBelajar from "./components/MetodeBelajar";
 import Footer from "./components/Footer";
 import useIsAndroid from "./helpers/useIsAndroid";
-import { useEffect } from "react";
 import MobileNavbar from "./components/MobileNavbar";
+import MobileHeroSection from "./components/MobileHeroSection";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
 
-  useEffect(() => {
-    console.log("999 is android", isAndroid);
-  }, [isAndroid]);
-
   return (
     <main className="flex flex-col w-screen">
       {isAndroid ? (
-        <MobileNavbar />
+        <>
+          <MobileNavbar />
+          <MobileHeroSection />
+        </>
       ) : (
         <>
           <Navbar />

@@ -19,13 +19,13 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <button className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-dark text-white w-fit text-sm">
+        <button className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-slate-900 text-white w-fit text-sm">
           Konsultasi Sekarang
         </button>
       </div>
 
       <Image
-        src="/images/hero-section-image-2.png"
+        src="/images/new-hero.png"
         alt="hero-image"
         width={550}
         height={400}
