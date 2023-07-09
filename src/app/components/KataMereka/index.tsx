@@ -34,7 +34,7 @@ const KataMereka = () => {
                 <div className="flex flex-col gap-5">
                   <div className="flex flex-col gap-1">
                     <h4 className="font-bold text-2xl">{review.name}</h4>
-                    <p>{review.award}</p>
+                    <p className="italic">{review.award}</p>
                   </div>
 
                   <p className="max-w-xl">{review.review}</p>
