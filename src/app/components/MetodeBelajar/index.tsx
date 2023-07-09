@@ -11,7 +11,7 @@ const MetodeBelajar = () => {
   ];
 
   return (
-    <div className="flex flex-col px-40 gap-16">
+    <div className="flex flex-col px-40 gap-16 py-28">
       <h2 className="font-bold text-4xl font-serif">
         Metode <span className="text-mainOrange">Belajar</span>
       </h2>
