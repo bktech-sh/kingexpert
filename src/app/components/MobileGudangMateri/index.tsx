@@ -2,7 +2,7 @@ import ImageCarousel from "./ImageCarousel";
 
 const MobileGudangMateri = () => {
   return (
-    <div className="flex flex-col gap-4 px-2 py-28 items-center">
+    <div className="flex flex-col gap-4 px-2 py-28 items-center overflow-hidden">
       <h2 className="text-xl font-semibold font-serif">
         Gudang <span className="text-mainOrange">Materi</span>
       </h2>

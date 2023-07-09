@@ -19,14 +19,14 @@ const ImageCarousel = ({ slidesToShow = 5 }) => {
       {
         breakpoint: 1490,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 820,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
