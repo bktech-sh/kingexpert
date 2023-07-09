@@ -16,6 +16,7 @@ import Tutor from "./components/Tutor";
 import CardHubungi from "./components/CardHubungi";
 import GudangMateri from "./components/GudangMateri";
 import KataMereka from "./components/KataMereka";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -41,6 +42,7 @@ export default function Home() {
           <CardHubungi />
           <GudangMateri />
           <KataMereka />
+          <Gallery />
           <Footer />
         </>
       )}
