@@ -2,13 +2,13 @@ import { useState } from "react";
 import Slider from "react-slick";
 import { listImages } from "./listImages";
 
-const ImageCarousel = ({ slidesToShow = 3 }) => {
+const ImageCarousel = ({ slidesToShow = 5 }) => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     centerMode: true,
     infinite: true,
     dots: false,
-    speed: 300,
+    speed: 1000,
     slidesToShow: slidesToShow,
     centerPadding: "0",
     swipeToSlide: true,
@@ -19,7 +19,7 @@ const ImageCarousel = ({ slidesToShow = 3 }) => {
       {
         breakpoint: 1490,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 5,
           slidesToScroll: 1,
         },
       },
@@ -52,7 +52,7 @@ const ImageCarousel = ({ slidesToShow = 3 }) => {
   });
 
   return (
-    <div className="max-w-xl">
+    <div className="max-w-screen-xl">
       <link
         rel="stylesheet"
         type="text/css"
