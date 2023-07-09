@@ -15,6 +15,7 @@ import MobileFooter from "./components/MobileFooter";
 import Tutor from "./components/Tutor";
 import CardHubungi from "./components/CardHubungi";
 import GudangMateri from "./components/GudangMateri";
+import KataMereka from "./components/KataMereka";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -39,6 +40,7 @@ export default function Home() {
           <Tutor />
           <CardHubungi />
           <GudangMateri />
+          <KataMereka />
           <Footer />
         </>
       )}
