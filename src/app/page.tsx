@@ -8,6 +8,7 @@ import MetodeBelajar from "./components/MetodeBelajar";
 import Footer from "./components/Footer";
 import useIsAndroid from "./helpers/useIsAndroid";
 import { useEffect } from "react";
+import MobileNavbar from "./components/MobileNavbar";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -18,12 +19,18 @@ export default function Home() {
 
   return (
     <main className="flex flex-col w-screen">
-      <Navbar />
-      <HeroSection />
-      <Customers />
-      <WhyKingExpert />
-      <MetodeBelajar />
-      <Footer />
+      {isAndroid ? (
+        <MobileNavbar />
+      ) : (
+        <>
+          <Navbar />
+          <HeroSection />
+          <Customers />
+          <WhyKingExpert />
+          <MetodeBelajar />
+          <Footer />
+        </>
+      )}
     </main>
   );
 }
