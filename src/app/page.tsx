@@ -33,27 +33,27 @@ export default function Home() {
           <MobileNavbar />
           <MobileHeroSection />
           <MobileCustomers />
-          <MobileWhyKingExpert />
+          {/* <MobileWhyKingExpert />
           <MobileMetodeBelajar />
           <MobileCardHubungi />
           <MobileGudangMateri />
           <MobileKataMereka />
           <MobileGallery />
-          <MobileFooter />
+          <MobileFooter /> */}
         </>
       ) : (
         <>
           <Navbar />
           <HeroSection />
           <Customers />
-          <WhyKingExpert />
+          {/* <WhyKingExpert />
           <MetodeBelajar />
           <Tutor />
           <CardHubungi />
           <GudangMateri />
           <KataMereka />
           <Gallery />
-          <Footer />
+          <Footer /> */}
         </>
       )}
     </main>
