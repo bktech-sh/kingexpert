@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Menu from "./Menu";
-import BtnAppointment from "./BtnAppointment";
 
 const Navbar = () => {
   return (
@@ -10,9 +9,10 @@ const Navbar = () => {
         alt="main-logo"
         width={110}
         height={50}
+        className="cursor-pointer"
       />
       <Menu />
-      <BtnAppointment />
+      <div />
     </div>
   );
 };
