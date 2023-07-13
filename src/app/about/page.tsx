@@ -6,6 +6,7 @@ import MobileNavbar from "../components/MobileNavbar";
 import Navbar from "../components/Navbar";
 import useIsAndroid from "../helpers/useIsAndroid";
 import MainContent from "./components/MainContent";
+import MobileMainContent from "./components/MobileMainContent";
 
 const About = () => {
   const isAndroid = useIsAndroid();
@@ -15,6 +16,7 @@ const About = () => {
       {isAndroid ? (
         <>
           <MobileNavbar />
+          <MobileMainContent />
           <MobileFooter />
         </>
       ) : (
