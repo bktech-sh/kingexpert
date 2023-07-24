@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { useState } from "react";
 import MenuList from "./MenuList";
+import { useRouter } from "next/navigation";
 
 const MobileNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -17,6 +19,7 @@ const MobileNavbar = () => {
           alt="main-logo"
           width={100}
           height={100}
+          onClick={() => router.push("/")}
         />
       </div>
 
