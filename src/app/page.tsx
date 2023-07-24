@@ -37,8 +37,8 @@ export default function Home() {
           <MobileMetodeBelajar />
           <MobileCardHubungi />
           <MobileGudangMateri />
-          {/* <MobileKataMereka />
-          <MobileGallery /> */}
+          <MobileKataMereka />
+          <MobileGallery />
           <MobileFooter />
         </>
       ) : (
@@ -51,8 +51,8 @@ export default function Home() {
           <Tutor />
           <CardHubungi />
           <GudangMateri />
-          {/* <KataMereka />
-          <Gallery /> */}
+          <KataMereka />
+          <Gallery />
           <Footer />
         </>
       )}
