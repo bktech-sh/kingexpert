@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useIsAndroid = () => {
-  const [isAndroid, setIsAndroid] = useState(false);
+  const [isAndroid, setIsAndroid] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
