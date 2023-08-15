@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { DESCRIPTION } from "@/app/constants";
+import { handleCallWhatsapp } from "@/app/helpers/openWhatsapp";
 
 const HeroSection = () => {
   return (
@@ -19,7 +20,10 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <button className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-slate-900 text-white w-fit text-sm hover:bg-mainOrange transition-all duration-300">
+        <button
+          className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-slate-900 text-white w-fit text-sm hover:bg-mainOrange transition-all duration-300"
+          onClick={handleCallWhatsapp}
+        >
           Konsultasi Sekarang
         </button>
       </div>

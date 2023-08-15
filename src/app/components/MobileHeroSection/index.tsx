@@ -1,4 +1,5 @@
 import { DESCRIPTION } from "@/app/constants";
+import { handleCallWhatsapp } from "@/app/helpers/openWhatsapp";
 import Image from "next/image";
 import React from "react";
 
@@ -21,7 +22,10 @@ const MobileHeroSection = () => {
         className=""
       />
 
-      <button className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-slate-900 text-white w-fit text-sm mt-6">
+      <button
+        className="flex items-center justify-center gap-2 p-3 px-7 rounded-xl bg-slate-900 text-white w-fit text-sm mt-6"
+        onClick={handleCallWhatsapp}
+      >
         Konsultasi Sekarang
       </button>
     </div>
