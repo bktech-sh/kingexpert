@@ -72,10 +72,10 @@ const Tutor = () => {
         </div>
       </div>
 
-      <div className="flex w-fit gap-2 self-end">
+      {/* <div className="flex w-fit gap-2 self-end">
         <p className="underline">Lihat Tutor Lainnya</p>
         <Image src="/images/arrow.svg" width={30} height={30} alt="arrow" />
-      </div>
+      </div> */}
     </div>
   );
 };
