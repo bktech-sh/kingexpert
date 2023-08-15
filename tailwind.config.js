@@ -19,6 +19,15 @@ module.exports = {
         mainGrey: "#E6E6E6",
         mainBackground: "#F8F8F8",
       },
+      animation: {
+        "fade-in": "fadeIn 2s ease-in-out forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: 0, transform: "translateY(20px)" },
+          to: { opacity: 1, transform: "translateY(0)" },
+        },
+      },
     },
   },
   plugins: [],

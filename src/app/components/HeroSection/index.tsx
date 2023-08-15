@@ -34,6 +34,7 @@ const HeroSection = () => {
         width={550}
         height={400}
         style={{ objectFit: "contain" }}
+        className="animate-fade-in"
       />
     </div>
   );

@@ -19,7 +19,7 @@ const MobileHeroSection = () => {
         width={250}
         height={100}
         style={{ objectFit: "contain" }}
-        className=""
+        className="animate-fade-in"
       />
 
       <button
