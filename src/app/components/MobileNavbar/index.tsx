@@ -12,7 +12,7 @@ const MobileNavbar = () => {
   };
 
   return (
-    <div className="flex items-center h-53 py-3 px-7 justify-between">
+    <div className="flex items-center h-53 py-3 px-7 justify-between z-10">
       <div>
         <Image
           src="/images/main-logo.png"

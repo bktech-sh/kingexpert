@@ -6,8 +6,12 @@ const Menu = () => {
       <Link className="text-gray-500" href="/about">
         About
       </Link>
-      <h4 className="text-gray-500">Pricing</h4>
-      <h4 className="text-gray-500">Event</h4>
+      <Link className="text-gray-500" href="/pricing">
+        Pricing
+      </Link>
+      <Link className="text-gray-500" href="/events">
+        Events
+      </Link>
     </div>
   );
 };

@@ -11,3 +11,18 @@ export const handleOpenInstagram = () => {
 
   window.open(instagramUrl, "_blank");
 };
+
+export const handleOpenPricing = () => {
+  const docsUrl =
+    "https://drive.google.com/drive/folders/1_BlZ-DqzML-mE8zfzsSQYOjzhD52bVpQ";
+
+  window.open(docsUrl, "_blank");
+};
+
+export const handleOpenEventList = () => {
+  // TODO change link, this is same with above
+  const docsUrl =
+    "https://drive.google.com/drive/folders/1_BlZ-DqzML-mE8zfzsSQYOjzhD52bVpQ";
+
+  window.open(docsUrl, "_blank");
+};

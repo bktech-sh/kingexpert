@@ -8,7 +8,7 @@ import useIsAndroid from "../helpers/useIsAndroid";
 import Card from "./components/Card";
 import MobileCard from "./components/MobileCard";
 
-const Events = () => {
+const Pricing = () => {
   const isAndroid = useIsAndroid();
 
   return (
@@ -30,4 +30,4 @@ const Events = () => {
   );
 };
 
-export default Events;
+export default Pricing;
