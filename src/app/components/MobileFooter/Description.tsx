@@ -1,3 +1,4 @@
+import { handleOpenInstagram } from "@/app/helpers/openMediaSocial";
 import Image from "next/image";
 
 const Description = () => {
@@ -40,6 +41,7 @@ const Description = () => {
           alt="twitter"
           width={30}
           height={30}
+          onClick={handleOpenInstagram}
         />
 
         <Image

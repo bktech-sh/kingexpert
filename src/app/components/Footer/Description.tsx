@@ -1,3 +1,7 @@
+import {
+  handleCallWhatsapp,
+  handleOpenInstagram,
+} from "@/app/helpers/openMediaSocial";
 import Image from "next/image";
 
 const Description = () => {
@@ -22,6 +26,7 @@ const Description = () => {
           alt="twitter"
           width={30}
           height={30}
+          onClick={handleOpenInstagram}
         />
 
         <Image
@@ -40,7 +45,10 @@ const Description = () => {
       </div>
 
       <div>
-        <button className="flex items-center w-125 h-49 p-4 pl-5 gap-3 bg-black text-white rounded-md">
+        <button
+          className="flex items-center w-125 h-49 p-4 pl-5 gap-3 bg-black text-white rounded-md"
+          onClick={handleCallWhatsapp}
+        >
           Hubungi Kami
         </button>
       </div>

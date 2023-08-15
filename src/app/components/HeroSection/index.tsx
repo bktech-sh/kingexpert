@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { DESCRIPTION } from "@/app/constants";
-import { handleCallWhatsapp } from "@/app/helpers/openWhatsapp";
+import { handleCallWhatsapp } from "@/app/helpers/openMediaSocial";
 
 const HeroSection = () => {
   return (

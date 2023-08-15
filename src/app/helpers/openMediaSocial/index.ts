@@ -5,3 +5,9 @@ export const handleCallWhatsapp = () => {
 
   window.open(whatsappApiUrl, "_blank");
 };
+
+export const handleOpenInstagram = () => {
+  const instagramUrl = "https://www.instagram.com/kingexpert.id/";
+
+  window.open(instagramUrl, "_blank");
+};

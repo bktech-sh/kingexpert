@@ -1,3 +1,4 @@
+import { handleCallWhatsapp } from "@/app/helpers/openMediaSocial";
 import Image from "next/image";
 
 const CardHubungi = () => {
@@ -26,6 +27,7 @@ const CardHubungi = () => {
                 "var(--gradient-danger-bg, linear-gradient(225deg, #FFC656 0%, #F16063 100%))",
             }}
             className="text-white font-bold px-8 py-2"
+            onClick={handleCallWhatsapp}
           >
             Hubungi King Expert
           </button>

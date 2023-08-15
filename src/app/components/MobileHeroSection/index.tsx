@@ -1,5 +1,5 @@
 import { DESCRIPTION } from "@/app/constants";
-import { handleCallWhatsapp } from "@/app/helpers/openWhatsapp";
+import { handleCallWhatsapp } from "@/app/helpers/openMediaSocial";
 import Image from "next/image";
 import React from "react";
 
