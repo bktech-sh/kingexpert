@@ -10,7 +10,7 @@ const MobileGallery = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
   };
 
@@ -26,7 +26,7 @@ const MobileGallery = () => {
                 key={index}
                 className="flex justify-center h-full mb-5 items-center"
               >
-                <div className="flex items-center">
+                <div className="flex items-center justify-center">
                   <Image
                     src={image}
                     alt="gallery-img"

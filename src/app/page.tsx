@@ -22,6 +22,7 @@ import MobileCardHubungi from "./components/MobileCardHubungi";
 import MobileGudangMateri from "./components/MobileGudangMateri";
 import MobileKataMereka from "./components/MobileKataMereka";
 import MobileGallery from "./components/MobileGallery";
+import MobileTutor from "./components/MobileTutor";
 
 export default function Home() {
   const isAndroid = useIsAndroid();
@@ -35,6 +36,7 @@ export default function Home() {
           <MobileCustomers />
           <MobileWhyKingExpert />
           <MobileMetodeBelajar />
+          <MobileTutor />
           <MobileCardHubungi />
           <MobileGudangMateri />
           <MobileKataMereka />
