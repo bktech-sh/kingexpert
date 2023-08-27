@@ -34,13 +34,23 @@ const MainContent = () => {
           </div>
         </div>
         <div className="">
-          <Image src="/images/ceo-1.png" alt="ceo" width={300} height={300} />
+          <Image
+            src="/images/founder/raja-2.png"
+            alt="ceo"
+            width={250}
+            height={250}
+          />
         </div>
       </div>
 
       <div className="flex gap-20">
         <div className="">
-          <Image src="/images/ceo-2.png" alt="ceo" width={300} height={300} />
+          <Image
+            src="/images/founder/rahmat-2.png"
+            alt="ceo"
+            width={250}
+            height={250}
+          />
         </div>
         <div className="flex flex-col gap-8 max-w-2xl">
           <div className="flex flex-col gap-3">
@@ -91,7 +101,12 @@ const MainContent = () => {
           </div>
         </div>
         <div className="">
-          <Image src="/images/ceo-3.png" alt="ceo" width={300} height={300} />
+          <Image
+            src="/images/founder/dandi-2.png"
+            alt="ceo"
+            width={200}
+            height={200}
+          />
         </div>
       </div>
     </div>
