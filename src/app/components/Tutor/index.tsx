@@ -27,7 +27,7 @@ const Tutor = () => {
                 height={200}
               />
               <p className="absolute bottom-1 left-1 text-white pl-3 pb-1 text-md font-bold">
-                Ari Angga Nugraha
+                Rahmat Zulfitra
               </p>
             </div>
 
@@ -65,7 +65,7 @@ const Tutor = () => {
                 height={200}
               />
               <p className="absolute bottom-1 left-1 text-white pl-3 pb-1 text-md font-bold">
-                Anand Amantha
+                Muhammad Hafizh
               </p>
             </div>
           </div>
