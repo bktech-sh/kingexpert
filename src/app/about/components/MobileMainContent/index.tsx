@@ -4,8 +4,13 @@ const MobileMainContent = () => {
   return (
     <div className="flex flex-col px-10 py-10 justify-center items-center gap-20">
       <div className="flex flex-col justify-center items-center">
-        <div>
-          <Image src="/images/ceo-1.png" alt="ceo" width={200} height={200} />
+        <div className="mb-7">
+          <Image
+            src="/images/founder/raja-2.png"
+            alt="ceo"
+            width={100}
+            height={100}
+          />
         </div>
 
         <div className="flex flex-col gap-6">
@@ -41,8 +46,13 @@ const MobileMainContent = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <div>
-          <Image src="/images/ceo-2.png" alt="ceo" width={200} height={200} />
+        <div className="mb-8">
+          <Image
+            src="/images/founder/rahmat-2.png"
+            alt="ceo"
+            width={150}
+            height={150}
+          />
         </div>
 
         <div className="flex flex-col gap-6">
@@ -75,7 +85,12 @@ const MobileMainContent = () => {
 
       <div className="flex flex-col justify-center items-center">
         <div>
-          <Image src="/images/ceo-3.png" alt="ceo" width={200} height={200} />
+          <Image
+            src="/images/founder/dandi-2.png"
+            alt="ceo"
+            width={100}
+            height={100}
+          />
         </div>
 
         <div className="flex flex-col gap-6">
