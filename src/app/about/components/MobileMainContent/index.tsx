@@ -30,16 +30,16 @@ const MobileMainContent = () => {
               Sejarah
             </h3>
             <p className="text-black text-sm font-inter font-normal leading-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur. Urna nunc neque nibh sit
-              molestie neque viverra egestas. Faucibus tincidunt eleifend
-              pretium tortor a hendrerit amet. Maecenas pellentesque sodales
-              cursus amet tincidunt hac. Mauris posuere facilisis amet at justo
-              lacus. Integer id justo in eget ullamcorper velit fermentum
-              ornare. Turpis donec quis egestas eget ac egestas non luctus.
-              Fringilla placerat aliquam sed ac. Leo sodales nibh in quam nec.
-              Varius maecenas potenti lacus cursus vitae viverra hac pharetra.
-              Nullam convallis ipsum curabitur phasellus turpis dolor. In lacus
-              ac ut ut tellus maecenas viverra arcu. Viverra
+              King Expert lahir dari kolaborasi King Ajar dan Eksper Education
+              dengan tujuan mempersiapkan siswa menghadapi ajang prestisius
+              seperti OSN. Raja dan Dandi, pendiri masing-masing, memiliki
+              pengalaman dan motivasi yang sama terkait pendidikan. Kolaborasi
+              ini berfokus pada pembinaan intensif dan komprehensif bagi siswa,
+              terutama di daerah Sumatera Barat. King Expert resmi berdiri
+              sebagai lembaga berbadan hukum dan aktif dalam memberikan
+              pembinaan serta pengembangan program inovatif. Mereka berkomitmen
+              menciptakan lingkungan belajar yang inspiratif dan meraih prestasi
+              akademik gemilang.
             </p>
           </div>
         </div>
@@ -68,16 +68,16 @@ const MobileMainContent = () => {
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-bold font-serif text-center">Misi</h3>
             <p className="text-black text-sm font-inter font-normal leading-5 text-justify">
-              Lorem ipsum dolor sit amet consectetur. Urna nunc neque nibh sit
-              molestie neque viverra egestas. Faucibus tincidunt eleifend
-              pretium tortor a hendrerit amet. Maecenas pellentesque sodales
-              cursus amet tincidunt hac. Mauris posuere facilisis amet at justo
-              lacus. Integer id justo in eget ullamcorper velit fermentum
-              ornare. Turpis donec quis egestas eget ac egestas non luctus.
-              Fringilla placerat aliquam sed ac. Leo sodales nibh in quam nec.
-              Varius maecenas potenti lacus cursus vitae viverra hac pharetra.
-              Nullam convallis ipsum curabitur phasellus turpis dolor. In lacus
-              ac ut ut tellus maecenas viverra arcu. Viverra
+              King Expert lahir dari kolaborasi King Ajar dan Eksper Education
+              dengan tujuan mempersiapkan siswa menghadapi ajang prestisius
+              seperti OSN. Raja dan Dandi, pendiri masing-masing, memiliki
+              pengalaman dan motivasi yang sama terkait pendidikan. Kolaborasi
+              ini berfokus pada pembinaan intensif dan komprehensif bagi siswa,
+              terutama di daerah Sumatera Barat. King Expert resmi berdiri
+              sebagai lembaga berbadan hukum dan aktif dalam memberikan
+              pembinaan serta pengembangan program inovatif. Mereka berkomitmen
+              menciptakan lingkungan belajar yang inspiratif dan meraih prestasi
+              akademik gemilang.
             </p>
           </div>
         </div>
