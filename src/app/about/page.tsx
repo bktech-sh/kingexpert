@@ -5,6 +5,7 @@ import MobileFooter from "../components/MobileFooter";
 import MobileNavbar from "../components/MobileNavbar";
 import Navbar from "../components/Navbar";
 import useIsAndroid from "../helpers/useIsAndroid";
+import FAQAccordion from "./components/FaqSection";
 import MainContent from "./components/MainContent";
 import MobileMainContent from "./components/MobileMainContent";
 
@@ -23,6 +24,7 @@ const About = () => {
         <>
           <Navbar />
           <MainContent />
+          <FAQAccordion />
           <Footer />
         </>
       )}
